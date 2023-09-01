@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2019", // La version de JavaScript que vous ciblez
+    "module": "CommonJS", // Le système de modules que vous utilisez (dans un environnement Node.js, CommonJS est généralement utilisé)
+    "outDir": "./dist", // Répertoire de sortie pour les fichiers compilés
+    "rootDir": "./src", // Répertoire source où se trouvent vos fichiers TypeScript
+    "strict": true, // Activer les vérifications strictes de TypeScript
+    "esModuleInterop": true, // Permettre l'interopérabilité entre les modules ES6 et CommonJS
+    "skipLibCheck": true, // Ignorer la vérification des fichiers de déclaration (facultatif)
+    "forceConsistentCasingInFileNames": true // Assure la cohérence de la casse des noms de fichiers
+  },
+  "include": ["src/**/*.ts"], // Spécifie quels fichiers TypeScript à inclure pour la compilation
+  "exclude": ["node_modules"] // Exclure les fichiers dans ce répertoire de la compilation
+}
